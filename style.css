@@ -1,0 +1,87 @@
+main {
+    background-color: white;
+    background-image: url("https://www.miiris.ru/images/logo/LogoFUTula.jpg");
+    background-repeat: repeat-y;
+    background-size: 25%;
+    background-position: 98% 10%;
+}
+header {
+    background-color: #009de0;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.post img {
+    float: right;
+    margin: 7px 0 7px 7px;
+    height: 200px;
+}
+#siteName {
+    padding: 5px;
+    color: white;
+    font: 20px Arial;
+    font-weight: bold;
+}
+#index {
+    float: right;
+    background-color: white;
+    padding: 20px;
+    margin-right: 1%;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+a {
+    text-decoration: none;
+}
+#menu{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#menu ul {
+    display: block;
+    margin: 3px;
+    padding: 0px;
+}
+#menu ul::after {
+	display: block;
+	width: 100%;
+	height: 0px;
+	clear: both;
+	content: " ";
+}
+#menu ul li {
+	display: block;
+	float: left;
+}
+#menu ul li a {
+	display: block;
+	padding: 5px 20px 0px 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 10px;
+	color: white;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 40%;
+}
+#gallery-line img {
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    text-align: center;
+}
+#gallery-line {
+    display: flex;
+    flex-wrap: wrap;
+}
